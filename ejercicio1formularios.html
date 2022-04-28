@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio formulario 1:Issuu</title>
+    <link rel="stylesheet" href="./stylosformulario1.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link type="image/png" sizes="16x16" rel="icon" href="./IMAGES/favicons/Web/icons8-issuu-16.png">
+    <link type="image/png" sizes="32x32" rel="icon" href="./IMAGES/favicons/Web/icons8-issuu-32.png">
+</head>
+<body>
+    <header>
+        <div class="header">
+        <span class="icon"><img src="./IMAGES/svg/issuu-vector-logo.svg" alt="IconoIssuu"></img></span>
+        <span class="sign">Already a user?</span>
+        <span class="linkheader">Sign in</span>
+        </div>
+    </header>
+    <main>
+        <form>
+        <div class="issuhomepage"> 
+            <div class="main">
+                <h1>Create an Issuu Account</h1>
+                <div class="socialIcons">
+                    <button><img src="./IMAGES/svg/icons8-logo-de-google.svg" alt="googleicon" width="25px">Sign in with Google</button>
+                    <button><img src="./IMAGES/svg/icons8-facebook.svg" alt="googleicon" width="25px">Continue with Facebook</button>
+                </div>
+                </div>
+       
+        <div class="form">
+        <label for="email">Email</label>
+        <input class="input" type="email" id="email" placeholder="e.g john.doe@email.com"  pattern="^([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22))*\x40([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d))*(\.\w{2,})+$">
+    
+    </div> 
+        <div class="form">
+            <label for="password">Password</label>
+            <input class="input" type="password" id="password" pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$" required="">
+        </div> 
+        <br>
+        <div class="check">
+            <label> <input type="checkbox" id="checkbox" value="accept"> I accept the Terms of Service and the Professional Terms of Service</label>
+        </div>
+        <br>  
+        <div class="create">
+            <button> Create account</button>
+        </div>
+    </form>
+    </div>
+    </main>
+    <footer>
+        <div class="footer">
+            <span class="issuu">
+                Issuu Inc.
+            </span>
+            <span class="otherfooterinfo">
+                Terms Privacy DMCA
+            </span>
+        </div>
+    </footer>
+</body>
+</html>
