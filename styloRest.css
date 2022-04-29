@@ -54,7 +54,7 @@ a:hover:after {
   max-width: 100vw;
   min-height: 100vh;
   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-    url(./imagenes/pexels-pixabay-260922.jpg);
+    url(../imagenes/restaurante/pexels-pixabay-260922.jpg);
 }
 .MozzaIcon {
   display: flex;
@@ -114,9 +114,9 @@ a:hover:after {
   min-height: 100vh;
   background-image: linear-gradient(
       rgba(236, 236, 236, 0.747),
-      rgb(255, 255, 255)
+      rgba(255, 255, 255, 0.295)
     ),
-    url(./imagenes/pexels-photo-696218.jpeg);
+    url(../imagenes/restaurante/pexels-chan-walrus-941861.jpg);
   background-repeat: no-repeat;
   background-size: 100vw 100vh;
 }
@@ -245,7 +245,8 @@ a:hover:after {
   min-height: 100vh;
   padding: 20px;
   background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-    url(./imagenes/plantitas.jpg);
+    url(../imagenes/restaurante/pexels-pixabay-260922.jpg);
+    background-size: cover;
 }
 .imagenes img {
   width: 500px;
@@ -257,7 +258,8 @@ a:hover:after {
   max-width: 100vw;
   min-height: 100vh;
   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-    url(./imagenes/pexels-photo-696218.jpeg);
+    url(../imagenes/restaurante/pexels-life-of-pix-67468.jpg);
+    background-size: cover;
 }
 .form {
   display: flex;
@@ -351,7 +353,7 @@ h3 {
 }
 .contenedor1 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-    url(./imagenes/pexels-photo-914388.jpeg);
+    url(..//imagenes/restaurante/pexels-lisa-fotios-1855214.jpg);
   border-radius: 20px;
   background-repeat: no-repeat;
   background-size: 100%;
@@ -360,7 +362,7 @@ h3 {
 
 .contenedor2 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-    url(./imagenes/modelos/pexels-marcus-vinícius-a-ribeiro-2825034.jpg);
+    url(../imagenes/restaurante/pexels-dmitry-zvolskiy-2253643.jpg);
   border-radius: 20px;
   background-repeat: no-repeat;
   background-size: 100%;
@@ -369,7 +371,7 @@ h3 {
 
 .contenedor3 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-    url(./imagenes/modelos/pexels-spencer-selover-775358.jpg);
+    url(../imagenes/restaurante/pexels-igor-starkov-914388.jpg);
   border-radius: 20px;
   background-repeat: no-repeat;
   background-size: 100%;
@@ -399,7 +401,7 @@ h3 {
   padding: 30px;
 }
 .contactNumber img {
-  margin-bottom: -70px;
+  margin-bottom: -60px;
 }
 .MozzaFooterName {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
