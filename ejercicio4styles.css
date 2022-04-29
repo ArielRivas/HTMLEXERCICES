@@ -10,14 +10,14 @@ body {
   max-width: 100vw;
 }
 .header {
-  background-image: url(./imagenes/coche+/brandon-vazquez-z_nWzq2kWf4-unsplash.jpg);
+  background-image: url(../imagenes/coche/portada.jpg);
   max-width: 100vw;
   min-height: 100vh;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
   -webkit-font-smoothing: antialiased;
-  filter: saturate(4);
+  
 }
 .nav {
   display: flex;
@@ -41,11 +41,14 @@ body {
   border-bottom-color: #1c69d5;
 }
 .BMWIcon {
-  padding-top: 35px;
+  padding-top: 50px;
   margin-left: 60px;
+  margin-top: 30px;
   border-bottom-width: 2px;
   border-bottom-style: solid;
   border-bottom-color: rgba(189, 187, 187, 0.26);
+  background-color: #e6e6e6;
+  padding: 10px;
 }
 .navIcons {
   filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(119deg) brightness(103%) contrast(102%);
@@ -59,7 +62,7 @@ body {
 .main {
   color: #fff;
   padding: 12px;
-  margin-top: 600px;
+  margin-top: 580px;
   margin-left: 20px;
   font-size: 2rem;
 }
@@ -69,7 +72,7 @@ button {
   color: #fff;
   width: 180px;
   height: 35px;
-  cursor: url('./imagenes/coche+/coche.png'), pointer;
+  cursor: url('../imagenes/iconos/coche.png'), pointer;
 }
 button:hover {
   background-color: #fff;
@@ -119,8 +122,8 @@ a:hover {
   color: rgba(0, 0, 0, 0.336);
 }
 .modelPage img {
-  width: 500px;
-  height: 300px;
+  width: 400px;
+  height: 200px;
 }
 .midPage img {
   width: 300px;
@@ -152,7 +155,9 @@ a:hover {
   column-gap: 30px;
   justify-items: center;
 }
-
+.modelPage h3 {
+  cursor: pointer;
+}
 .midPage {
  display: flex;
  margin-top: 300px;
@@ -181,20 +186,19 @@ a:hover {
 .midTEXT5 iframe, .midTEXT6 iframe {
   margin-bottom: 20px;
 }
+.midPage2{
+  display: flex;
+  justify-content:space-around;
+}
 .midTEXT5, .midTEXT6 {
-  margin: 100px 100px 0 100px;
+  
   border-width: 2px;
   border-style: solid;
   border-color: rgba(189, 187, 187, 0.26);
   cursor: pointer;
   padding: 20px;
 }
-.midTEXT5 {
-  margin-left: 200px;
-}
-.midTEXT6 {
-  margin-left: 600px;
-}
+
 .midPage h3 {
   margin-bottom: 10px;
 }
