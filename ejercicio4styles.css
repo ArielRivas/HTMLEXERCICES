@@ -17,7 +17,6 @@ body {
   background-attachment: fixed;
   background-size: cover;
   -webkit-font-smoothing: antialiased;
-  
 }
 .nav {
   display: flex;
@@ -35,7 +34,9 @@ body {
   border-bottom-style: solid;
   border-bottom-color: rgba(189, 187, 187, 0.26);
 }
-.nav li:hover, .nav li:focus, .nav li:active {
+.nav li:hover,
+.nav li:focus,
+.nav li:active {
   border-bottom-width: 2px;
   border-bottom-style: solid;
   border-bottom-color: #1c69d5;
@@ -51,9 +52,10 @@ body {
   padding: 10px;
 }
 .navIcons {
-  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(119deg) brightness(103%) contrast(102%);
+  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(119deg)
+    brightness(103%) contrast(102%);
   margin-left: 800px;
-  padding: 30px 0 0 0;
+  padding-top: 30px;
 }
 .navIcons img {
   padding: 20px;
@@ -72,11 +74,11 @@ button {
   color: #fff;
   width: 180px;
   height: 35px;
-  cursor: url('../imagenes/iconos/coche.png'), pointer;
+  cursor: url("../imagenes/iconos/coche.png"), pointer;
 }
 button:hover {
   background-color: #fff;
-  color:#1c69d5;
+  color: #1c69d5;
 }
 
 .navModels ul {
@@ -114,9 +116,8 @@ a:hover {
   margin-top: -10px;
 }
 .firstPage {
-  margin-left: 100px;
   margin-top: 30px;
-  margin-right: 100px;
+  margin-left: 20px;
 }
 .firstPageText {
   color: rgba(0, 0, 0, 0.336);
@@ -137,13 +138,13 @@ a:hover {
 }
 .modelPage img {
   -webkit-transform: scale(1);
-	transform: scale(1);
-	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
+  transform: scale(1);
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
 }
 .modelPage img:hover {
   -webkit-transform: scale(1.2);
-	transform: scale(1.1);
+  transform: scale(1.1);
 }
 .modelPage h3 {
   margin-top: 20px;
@@ -154,27 +155,31 @@ a:hover {
   grid-template-columns: repeat(4, 1fr);
   column-gap: 30px;
   justify-items: center;
+  margin: auto;
 }
 .modelPage h3 {
   cursor: pointer;
 }
 .midPage {
- display: flex;
- margin-top: 300px;
- justify-content: space-evenly;
+  display: flex;
+  margin-top: 300px;
+  justify-content: space-evenly;
 }
 .midPage img {
   margin-bottom: 20px;
   -webkit-filter: blur(3px);
-	filter: blur(3px);
-	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
+  filter: blur(3px);
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
 }
 .midPage img:hover {
   -webkit-filter: blur(0);
-	filter: blur(0);
+  filter: blur(0);
 }
-.midTEXT1, .midTEXT2, .midTEXT3, .midTEXT4 {
+.midTEXT1,
+.midTEXT2,
+.midTEXT3,
+.midTEXT4 {
   border-width: 2px;
   border-style: solid;
   border-color: rgba(189, 187, 187, 0.26);
@@ -183,15 +188,16 @@ a:hover {
   max-height: 900px;
   cursor: pointer;
 }
-.midTEXT5 iframe, .midTEXT6 iframe {
+.midTEXT5 iframe,
+.midTEXT6 iframe {
   margin-bottom: 20px;
 }
-.midPage2{
+.midPage2 {
   display: flex;
-  justify-content:space-around;
+  justify-content: space-around;
 }
-.midTEXT5, .midTEXT6 {
-  
+.midTEXT5,
+.midTEXT6 {
   border-width: 2px;
   border-style: solid;
   border-color: rgba(189, 187, 187, 0.26);
@@ -209,19 +215,25 @@ a:hover {
   display: flex;
 }
 .squares {
-  display:flex;
+  display: flex;
   justify-content: space-evenly;
   margin-top: 100px;
-  
 }
-.square1 , .square2 ,  .square3 , .square4 {
+.square1,
+.square2,
+.square3,
+.square4 {
   background-color: #f2f2f2;
-  color:#969696;
+  color: #969696;
   padding: 20px 100px;
   cursor: pointer;
 }
-.square1 img, .square2 img,  .square3 img, .square4 img {
-  filter: invert(70%) sepia(3%) saturate(0%) hue-rotate(157deg) brightness(94%) contrast(77%);
+.square1 img,
+.square2 img,
+.square3 img,
+.square4 img {
+  filter: invert(70%) sepia(3%) saturate(0%) hue-rotate(157deg) brightness(94%)
+    contrast(77%);
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -235,35 +247,35 @@ a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
- 
 }
 .footer td {
-  color:#979797;
+  color: #979797;
   cursor: pointer;
 }
 .footer td:hover {
-  color:#1c69d5;
+  color: #1c69d5;
 }
-.footer th , .footer td {
+.footer th,
+.footer td {
   text-align: left;
-  padding:0 10px 0 10px; 
+  padding: 0 10px 0 10px;
   font-size: large;
   justify-content: center;
 }
 .footer th {
   border-top-width: 2px;
   border-top-style: solid;
-  border-top-color:#b7b8be;
+  border-top-color: #b7b8be;
   padding-top: 20px;
 }
 .underFoot {
- height: 100px;
- margin-left: 100px;
- margin-top: 50px;
+  height: 100px;
+  margin-left: 100px;
+  margin-top: 50px;
 }
 .links {
-  color:#1c69d5;
+  color: #1c69d5;
   margin-left: 740px;
   letter-spacing: 1.1px;
-  cursor:pointer;
+  cursor: pointer;
 }
