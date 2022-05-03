@@ -152,6 +152,7 @@ body {
   width: 50vw;
   border-width: 0;
   border-bottom-width: 3px;
+  text-align: center;
 }
 .underFooter {
   display: flex;
