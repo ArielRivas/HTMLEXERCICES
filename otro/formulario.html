@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en"
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Comtapible" content="IE=edge">
+    <meta name="viewport" content="width=device-width", initial-scale=1.0">
+    <title>Formulario de contactos</title>
+</head>
+<body>
+    <h1>Contáctame para más info </h1> <!--cringe-->
+    <form autocomplete=off action="https://reqres.in/api/users" method="post"> <!--aqui iría el fichero de backend, get es pedir datos post es poner en un formulario
+    todo sale en la url, post es más delicado, es el que se usa-->
+        <fieldset> <!--no se usa casi-->
+        <legend>Datos personales</legend>
+        </fieldset>
+        <label for="fname">Nombre:</label>
+        <input type="text" id="fname" name="user_fname" required>
+       
+        <label for="lname">Apellido:</label>
+        <input type="text" id="lnmale" name="user_lname" required>
+        
+        <label for="user">Nombre de usuario:</label>
+        <input type="text" id="user" name="user_name" minlength="5" maxlength="8" placeholder="entre 5 y 8 carácteres">
+
+        <label for="age">Edad:</label>
+        <input type="number" id="age" name="user_age" min="18">
+       
+        <label for="email">Email:</label>
+        <input type="email" id="emale" name="user_email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
+      
+        <label for="pwd">Contraseña:</label>
+        <input type="password" id="pwd" name="user_password" minlength="6" placeholder="mínimo 6 carácters" pattern="[A-Za-z0-9}+" required>
+
+        <label for="Bdate">Fecha de nacimiento:</label>
+        <input type="date" id="Bdate" name="user_Bdate">
+
+        <label for="city">Ciudad:</label>
+        <select name="usercity" id="city"> 
+            <option value="mad">Madrid</option>
+            <option value="bcn">Barcelona</option>
+            <option value="val">Valencia</option>
+        </select>
+       
+        <label for="vip">¿Quieres ser VIP?:</label>
+        <input type="checkbox" name="vipu" id="vip"></input>
+        <br>
+        <label for="message">Mensaje</label>
+        <br>
+        <textarea name="user_msg" id="message" cols="20" roes="5"></textarea>
+        <br>
+        <button type="submit">Registrarme</button>
+        <br>
+    </form>
+</body>    
+</html>
