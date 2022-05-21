@@ -81,7 +81,7 @@ justify-content: flex-end;
   background-color: #fff;
   cursor: pointer;
 }
-.mainMenu li {
+.mainMenu__navlist {
   display: inline-block;
   position: relative;
   text-transform: uppercase;
@@ -89,7 +89,7 @@ justify-content: flex-end;
 .mainMenu li:hover {
   color: #67b500;
 }
-.offer {
+.mainMenu__navlist--offer {
   border-bottom: 3px solid #67b500;
 }
 .greenLink {
@@ -124,7 +124,7 @@ justify-content: flex-end;
   border-style: solid;
   color: #67b500;
 }
-.squares img{
+.squares__img {
   height: 300px;
   width: 500px;
 }
